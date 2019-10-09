@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up" , "Good morning" , "Good evening" , "hello" , "hey" , "what's up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old are you", "what is your age", "how old are you", "age?"],
+         "responses": ["I am old and wise", "5 centuries young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you?"],
+         "responses": ["You can call me Pandora.", "I'm Pandora!", "I'm Pandora."],
+         "context_set": ""
+        },
+        {"tag": "help",
+         "patterns": ["Id like to ask something", "what can you do", "can you help me?", "can i tell you something"],
+         "responses": ["I'm here to help you!", "Don't worry, everything will be ok."],
+         "context_set": ""
+        },
+        {"tag": "sad",
+         "patterns": ["Not doing too great", "i feel down", "not feeling well","i am sad"],
+         "responses": ["why? what happened?", "oh, i am so sorry to hear that","what happened!"],
+         "context_set": ""
+        },
+        {"tag": "depressed",
+         "patterns": ["I have been depressed","I am depressed", "I am not taking my meds"],
+         "responses": ["why? what happened?", "oh, i am so sorry to hear that","what happened!"],
+         "context_set": ""
+        },
+        {"tag": "problem",
+         "patterns": ["I have a problem","I am in deep trouble", "I need solution to my problem"],
+         "responses": ["of course I can help", "that's why I am here" , " I will be more than happy to help"],
+         "context_set": ""
+        },
+        {"tag": "badhabit",
+         "patterns": ["I am heavy smoker","I can't quit smoking", "I am a smoker" ,"I want to stop smoking", "I smoke a lot" , "I want to quit smoking"],
+         "responses": ["I see, smoking is bad for your health", "Smoking is a bad habit" , "I will help you to stop smoking"],
+         "context_set": ""
+        },
+        {"tag": "solution",
+         "patterns": ["how can I stop smoking","what's the way to stop smoking", "is there a way to stop?" ,"can you help me stop smoking?"],
+         "responses": ["we need to set a plan to help you quit", "the sea waves crush rocks by consistent effort" , "you need to gradually reduce the amount of cigarettes"],
+         "context_set": ""
+        }
+   ]
+}
