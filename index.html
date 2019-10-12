@@ -87,6 +87,7 @@
     </style>
   </head>
   <body>
+    
     <div class="box"></div>
     <div class="boxed">
       <div>
@@ -100,33 +101,13 @@
             <span>Hi! I'm Pandora your personal ChatBot </span>
           </p>
         </div>
+<form method="post" action="doform">
         <div id="userInput">
           <input id="textInput" type="text" name="msg" placeholder="Message" />
         </div>
+ </form>
       </div>
-      <script>
-        function getBotResponse() {
-          var rawText = $("#textInput").val();
-          var userHtml = '<p class="userText"><span>' + rawText + "</span></p>";
-          $("#textInput").val("");
-          $("#chatbox").append(userHtml);
-          document
-            .getElementById("userInput")
-            .scrollIntoView({ block: "start", behavior: "smooth" });
-          $.get("/get", { msg: rawText }).done(function(data) {
-            var botHtml = '<p class="botText"><span>' + data + "</span></p>";
-            $("#chatbox").append(botHtml);
-            document
-              .getElementById("userInput")
-              .scrollIntoView({ block: "start", behavior: "smooth" });
-          });
-        }
-        $("#textInput").keypress(function(e) {
-          if (e.which == 13) {
-            getBotResponse();
-          }
-        });
-      </script>
+      
     </div>
   </body>
 </html>
