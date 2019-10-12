@@ -113,4 +113,30 @@ def chat():
             print(Bot)
         else:
             print("I don't understand!")
-chat()
+#chat()
+
+from bottle import route, run, post, request, static_file, template, Bottle, get
+
+app = Bottle()
+@get('/')
+def server_static(filepath="/content/index.html"):
+    return static_file(filepath, root='/')
+
+@post('/doform')
+def process():
+
+    message = request.forms.get('msg')
+    inp = message
+    results = model.predict([bag_of_words(inp, words)])[0]
+    results_index = numpy.argmax(results)
+    tag = labels[results_index]
+    if results[results_index] > 0.7:
+        for tg in data["intents"]:
+            if tg['tag'] == tag:
+                responses = tg['responses']
+        Bot = random.choice(responses)
+        return(Bot)
+    else:
+        return("I don't understand!")
+
+run(host='localhost',  port=8080, debug=True)
