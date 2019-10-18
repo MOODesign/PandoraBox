@@ -11,7 +11,7 @@
 * tflearn - http://tflearn.org/doc_index/
 * nltk - https://www.nltk.org/
 * Flask - http://flask.palletsprojects.com/en/1.1.x/
-* A code editor of choice , i use https://code.visualstudio.com/
+
 
 # Testing
 * A live version/demo of this project lives in the cloud www.pandoraboxtherapy.ml
