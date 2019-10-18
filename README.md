@@ -1,4 +1,4 @@
-![URL=http://www.imagebam.com/image/31b1e11323369424][IMG]https://thumbs2.imagebam.com/70/cb/36/31b1e11323369424.jpg[/IMG][/URL] 
+![](http://www.imagebam.com/image/31b1e11323369424)
 # PandoraBox 0.0.1-Alpha
 A psychotherapy bot driven by a NLP neural network.
 
