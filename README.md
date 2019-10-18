@@ -14,14 +14,14 @@
 * A code editor of choice , i use https://code.visualstudio.com/
 
 # Testing
-A live version/demo of this project lives in the cloud www.pandoraboxtherapy.ml
+* A live version/demo of this project lives in the cloud www.pandoraboxtherapy.ml
     
 # collaborators
 * Abdelrahman Gamil - https://github.com/gamilyo
 * Sarah Eldawody - https://github.com/saraheldawody
 
 # Versioning
-For this project we use Semantic Versioning 2.0.0 https://semver.org/
+* For this project we use Semantic Versioning 2.0.0 https://semver.org/
 
 # Author
 * Mohamed EL-Batch - Initial work - https://github.com/MOODesign
