@@ -2,7 +2,7 @@
 A psychotherapy bot driven by a NLP neural network.
 
 # Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See Testing for notes on how to test the project on a live system.
+This project is intented to showcase our prototype for a psychotherapy machine learning Bot that interacts with the user in a friendly way in effort to provide help with his/her problem
 
 # Prerequisries
 * Python 3.5 or later  -  https://www.python.org/
