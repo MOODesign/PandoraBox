@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/MOODesign/PandoraBox/master/Project_Card.jpg)
+![]()
 # PandoraBox 0.0.1-Alpha
 A psychotherapy bot driven by a NLP neural network.
 
