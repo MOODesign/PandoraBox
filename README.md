@@ -14,7 +14,7 @@ This project is intented to showcase our prototype for a psychotherapy machine l
 * A code editor of choice , i use https://code.visualstudio.com/
 
 # Testing
-A live version of this project exists on www.pandoraboxtherapy.ml
+A live version/demo of this project lives in the cloud www.pandoraboxtherapy.ml
     
 # collaborators
 * Abdelrahman Gamil - https://github.com/gamilyo
