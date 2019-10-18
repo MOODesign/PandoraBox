@@ -1,4 +1,4 @@
-![](https://drive.google.com/open?id=1e5nYpPpwVTz4ymkUMMSXYibvMe8vasHZ)
+![](http://www.imagebam.com/image/31b1e11323369424)
 # PandoraBox 0.0.1-Alpha
 A psychotherapy bot driven by a NLP neural network.
 
