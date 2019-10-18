@@ -115,17 +115,8 @@ def chat():
             print("I don't understand!")
 #chat()
 
-from bottle import route, run, post, request, static_file, template, Bottle, get
 
-app = Bottle()
-@get('/')
-def server_static(filepath="/content/index.html"):
-    return static_file(filepath, root='/')
-
-@post('/doform')
-def process():
-
-    message = request.forms.get('msg')
+def process(message):
     inp = message
     results = model.predict([bag_of_words(inp, words)])[0]
     results_index = numpy.argmax(results)
@@ -139,4 +130,19 @@ def process():
     else:
         return("I don't understand!")
 
-run(host='localhost',  port=8080, debug=True)
+#import files
+from flask import Flask, render_template, request
+app = Flask(__name__)
+
+@app.route("/")
+def home():    
+    # get home page
+    return render_template("home.html") 
+@app.route("/get")
+def get_bot_response():  
+    #get user message and post bot replay  
+    userText = request.args.get('msg')    
+    return str(process(userText)) 
+if __name__ == "__main__":    
+    app.run()
+
