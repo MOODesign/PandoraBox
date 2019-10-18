@@ -1,8 +1,8 @@
 # PandoraBox 0.0.1-Alpha
-A psychotherapy bot driven by a NLP neural network.
+* A psychotherapy bot driven by a NLP neural network.
 
 # Getting Started
-This project is intented to showcase our prototype for a psychotherapy machine learning Bot that interacts with the user in a friendly way in effort to provide help with his/her problem
+* This project is intented to showcase our prototype for a psychotherapy machine learning Bot that interacts with the user in a friendly way in effort to provide help with his/her problem
 
 # Prerequisries
 * Python 3.5 or later  -  https://www.python.org/
@@ -24,10 +24,10 @@ A live version/demo of this project lives in the cloud www.pandoraboxtherapy.ml
 For this project we use Semantic Versioning 2.0.0 https://semver.org/
 
 # Author
-Mohamed EL-Batch - Initial work - https://github.com/MOODesign
+* Mohamed EL-Batch - Initial work - https://github.com/MOODesign
 
 # License
-This project is licensed under the Apache License 2.0 - see the LICENSE.md file for details.
+* This project is licensed under the Apache License 2.0 - see the LICENSE.md file for details.
 
 # Acknowledgments
 * Special thanks to - Khalid Briqa - the idea owner and CEO of PandoraBox.
